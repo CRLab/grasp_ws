@@ -1,3 +1,4 @@
 build/*
 devel/*
-src/*
+grasp_ws/*
+vision_ws/*

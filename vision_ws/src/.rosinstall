@@ -1,0 +1,6 @@
+- git:
+    local-name: pc_filter
+    uri: git@github.com:CURG/pc_filter.git
+- git:
+    local-name: vision_launch
+    uri: git@github.com:CURG/vision_launch.git
