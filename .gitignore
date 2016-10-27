@@ -1,4 +1,4 @@
 build/*
 devel/*
-grasp_ws/*
-vision_ws/*
+robot_ws/*
+basestation_ws/*
