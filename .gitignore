@@ -2,3 +2,4 @@ build/*
 devel/*
 robot_ws/*
 basestation_ws/*
+.idea

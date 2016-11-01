@@ -28,3 +28,32 @@ cd ..
 catkin_make
 source devel/setup.bash
 ```
+### Up and running
+
+#### On Robot 
+```
+ssh username@fetch22.local
+cd ~/ros/grasp_ws/
+source set_fetch_env.sh
+cd ~/ros/grasp_ws/robot_ws # since we are on the robot
+source devel/setup.bash
+roslaunch vision_launch robot.launch # can be run from anywhere
+```
+
+
+#### On Host Machine (aka Basestation)
+```
+cd ~/ros/grasp_ws/
+source set_fetch_env.sh
+cd ~/ros/grasp_ws/basestation_ws # since we are on the host machine
+source devel/setup.bash
+roslaunch system_launch basestation.launch  # can be run from anywhere
+```
+#### Drop into console (manual execution mode)
+```
+source set_fetch_env.sh
+cd ~/ros/grasp_ws/basestation_ws # since we are on the host machine
+source devel/setup.bash
+rosrun grasp_execution manual_grasp_execution_node.py 
+```
+
