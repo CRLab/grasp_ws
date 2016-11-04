@@ -9,31 +9,31 @@
 	url = git@github.com:CURG/vision_launch.git
 [submodule "robot_ws/src/pc_filter"]
 	path = robot_ws/src/pc_filter
-	url = https://github.com/CURG/pc_filter.git
+	url = git@github.com:CURG/pc_filter.git
 [submodule "basestation_ws/src/grasp_execution"]
 	path = basestation_ws/src/grasp_execution
-	url = https://github.com/CURG/grasp_execution.git
+	url = git@github.com:CURG/grasp_execution.git
 [submodule "basestation_ws/src/mvp_objrec"]
 	path = basestation_ws/src/mvp_objrec
-	url = https://github.com/CURG/mvp_objrec.git
+	url = git@github.com:CURG/mvp_objrec.git
 [submodule "basestation_ws/src/object_models"]
 	path = basestation_ws/src/object_models
-	url = https://github.com/CURG/object_models.git
+	url = git@github.com:CURG/object_models.git
 [submodule "basestation_ws/src/reachability_analyzer"]
 	path = basestation_ws/src/reachability_analyzer
-	url = https://github.com/CURG/reachability_analyzer.git
+	url = git@github.com:CURG/reachability_analyzer.git
 [submodule "basestation_ws/src/system_launch"]
 	path = basestation_ws/src/system_launch
-	url = https://github.com/CURG/system_launch.git
+	url = git@github.com:CURG/system_launch.git
 [submodule "basestation_ws/src/world_manager"]
 	path = basestation_ws/src/world_manager
-	url = https://github.com/CURG/world_manager.git
+	url = git@github.com:CURG/world_manager.git
 [submodule "basestation_ws/src/graspit-ros"]
 	path = basestation_ws/src/graspit-ros
-	url = https://github.com/CURG/graspit-ros.git
+	url = git@github.com:CURG/graspit-ros.git
 [submodule "basestation_ws/src/graspit_bci_plugin"]
 	path = basestation_ws/src/graspit_bci_plugin
-	url = https://github.com/CURG/graspit_bci_plugin.git
+	url = git@github.com:CURG/graspit_bci_plugin.git
 [submodule "basestation_ws/src/graspit_msgs"]
 	path = basestation_ws/src/graspit_msgs
-	url = https://github.com/CURG/graspit_msgs.git
+	url = git@github.com:CURG/graspit_msgs.git
