@@ -7,10 +7,9 @@ This ros workspace is for running the user interface, object detection, grasp pl
 
 ### build
 ```
-git clone git@github.com:CURG/grasp_ws.git
+git clone git@github.com:CURG/grasp_ws.git  --recursive
 cd ~/grasp_ws/basestation_ws/src
 catkin_init_ws
-wstool update
 cd ..
 catkin_make
 source devel/setup.bash
@@ -23,7 +22,6 @@ This ros workspace is for running pc_filter and checkerboard detection.  These a
 ```
 cd ~/grasp_ws/robot_ws/src
 catkin_init_ws
-wstool update
 cd ..
 catkin_make
 source devel/setup.bash
