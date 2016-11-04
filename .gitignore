@@ -1,5 +1,11 @@
-build/*
-devel/*
-robot_ws/*
-basestation_ws/*
+basestation_ws/build/*
+basestation_ws/devel/*
+basestation_ws/.catkin_workspace
+basestation_ws/src/CMakeLists.txt
+
+robot_ws/build/*
+robot_ws/devel/*
+robot_ws/.catkin_workspace
+robot_ws/src/CMakeLists.txt
+
 .idea

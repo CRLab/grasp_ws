@@ -1,0 +1,9 @@
+[submodule "robot_ws/src/table_detector"]
+	path = robot_ws/src/table_detector
+	url = git@github.com:CURG/table_detector.git
+[submodule "robot_ws/src/filter_tf"]
+	path = robot_ws/src/filter_tf
+	url = git@github.com:CURG/filter_tf.git
+[submodule "robot_ws/src/vision_launch"]
+	path = robot_ws/src/vision_launch
+	url = git@github.com:CURG/vision_launch.git
