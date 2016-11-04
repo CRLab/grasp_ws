@@ -7,3 +7,6 @@
 [submodule "robot_ws/src/vision_launch"]
 	path = robot_ws/src/vision_launch
 	url = git@github.com:CURG/vision_launch.git
+[submodule "robot_ws/src/pc_filter"]
+	path = robot_ws/src/pc_filter
+	url = https://github.com/CURG/pc_filter.git
