@@ -22,7 +22,7 @@ This ros workspace is for running pc_filter and checkerboard detection.  These a
 ### build
 ```
 cd ~/grasp_ws/robot_ws/src
-catkin_init_ws
+catkin_init_workspace
 cd ..
 catkin_make
 source devel/setup.bash
