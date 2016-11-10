@@ -10,7 +10,7 @@ This ros workspace is for running the user interface, object detection, grasp pl
 git clone git@github.com:CURG/grasp_ws.git  --recursive
 cd ~/grasp_ws/basestation_ws/src
 source /opt/ros/indigo/setup.bash
-catkin_init_ws
+catkin_init_workspace
 cd ..
 catkin_make
 source devel/setup.bash
