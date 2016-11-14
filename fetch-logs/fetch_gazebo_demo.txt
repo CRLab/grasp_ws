@@ -1,4 +1,4 @@
-[id: ''
+id: ''
 pre_grasp_posture: 
   header: 
     seq: 0
