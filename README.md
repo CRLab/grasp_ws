@@ -47,6 +47,11 @@ cd ~/ros/grasp_ws/basestation_ws # since we are on the host machine
 source devel/setup.bash
 roslaunch system_launch basestation.launch  # can be run from anywhere
 ```
+
+In setup that made reachability_analyzer a separate process, run (it takes the `robot` param):
+```
+roslaunch reachability_analyzer reachability_analyzer.launch robot:=fetch22 
+```
 #### Drop into console (manual execution mode)
 ```
 source set_fetch_env.sh
